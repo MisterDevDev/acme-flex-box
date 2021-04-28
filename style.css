@@ -1,0 +1,110 @@
+.Nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    background-color: dodgerblue;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    width: 25%;
+}
+
+.nav li:first-child {
+    font-size: 200%;
+}
+
+.nav li:nth-child(2) {
+    font-weight: bold;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.Form-Fields {
+    display: flex;
+    width: 45vw;
+    flex-wrap: wrap;
+}
+
+.form-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.field {
+    width: 70%;
+    border-style: solid;
+    border-color: gray;
+    list-style-type: none;
+}
+
+.field-name {
+    width: 20%;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+h2 {
+    padding: 1rem;
+    font-size: 200%;
+    color: #585858;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+.Buttons {
+    display: flex;
+    Justify-content: space-around;
+    align-items: center;
+}
+
+.buttons li {
+    list-style-type: none;
+    border-style: thin;
+    border-color: black;
+}
+
+.Clear {
+    background-color: lightgray;
+}
+
+.Save {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cards div{
+    border-style: solid;
+    border-color: black;
+    width: 33%;
+}
+
+@media only screen and (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+}
